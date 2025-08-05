@@ -1,7 +1,7 @@
 import React from "react";
 
 const ProductsList = () => {
-  return <div>npm install @mui/icons-material</div>;
+  return <div>Product list</div>;
 };
 
 export default ProductsList;
