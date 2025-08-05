@@ -1,0 +1,48 @@
+.custom-checkbox {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 18px;
+  user-select: none;
+  gap: 10px;
+}
+
+/* Checkboxni yashiramiz */
+.custom-checkbox input {
+  display: none;
+}
+
+/* Checkmark (checkbox ko‘rinadigan qismi) */
+.custom-checkbox .checkmark {
+  width: 20px;
+  height: 20px;
+  background-color: #eee;
+  border: 2px solid #888;
+  border-radius: 4px;
+  position: relative;
+  transition: 0.3s;
+}
+
+/* Belgilangan holatda */
+.custom-checkbox input:checked + .checkmark {
+  background-color: #4CAF50;
+  border-color: #4CAF50;
+}
+
+/* Check belgisi (✔️) */
+.custom-checkbox .checkmark::after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 5px;
+  top: 1px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.custom-checkbox input:checked + .checkmark::after {
+  display: block;
+}

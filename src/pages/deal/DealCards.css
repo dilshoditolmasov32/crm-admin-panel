@@ -1,0 +1,143 @@
+
+.deal-columns {
+   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 10px;
+  padding: 10px;
+  overflow-x: auto;
+  border-top: 1px solid #B9B9B9;
+
+}
+
+.deal-column {
+  min-width: 380px;
+  flex-shrink: 0;
+}
+
+.deal-header {
+  background: #ECEDEF;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border: 1px solid #10355B
+}
+
+.deal-header p {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.deal-meta{
+  min-width: 140px;
+  display: flex;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.deal-meta div {
+  background: #fff;
+  padding:10px  20px;
+  margin-top: 4px;
+  border-radius: 6px;
+  font-size: 14px;
+  border: 1px solid #B9B9B9;
+}
+
+.deal-meta span {
+  font-weight: bold;
+  display: block;
+  margin-top: 4px;
+font-weight: 600;
+font-size: 20px;
+color: #000;
+
+}
+
+.deal-card {
+
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 10px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.card-header strong{
+  font-size: 20px;  
+}
+
+.card-header span{
+  font-size: 18px;  
+  font-weight: 700
+}
+
+.card-sum {
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background: #fff;
+  padding: 6px 10px;
+  border: 1px solid #B9B9B9;
+  border-radius: 6px;
+}
+
+.card-sum span{
+  font-size: 18px;
+}
+
+.card-sum h3{
+  margin-top: 10px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.card-status {
+  background: #d3eaff;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.card-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #555;
+  margin-top: 10px;
+}
+
+.date-time{
+  display: flex;
+  gap: 10px;
+}
+
+.card-meta span{
+    padding: 4px 6px;
+    border-radius: 6px;
+   border: 1px solid;
+border-image-source: linear-gradient(0deg, #000000, #000000),
+linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+font-size: 16px;
+
+}
+
+
+.card-phone, .card-status{
+  background: #10355B;
+  padding: 6px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 6px;
+}

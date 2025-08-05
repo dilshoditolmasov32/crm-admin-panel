@@ -1,0 +1,38 @@
+.user-profile{
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-image{
+    padding: 14px;
+    background: #4D739B;
+    border-radius: 16px;
+
+}
+
+.profile-data span{
+font-size: 16px;
+text-transform: capitalize;
+color:#10355B;
+padding: 6px 9px;
+background: #fff;
+border-radius: 6px;
+}
+
+.profile-data h4{
+font-size: 20px;
+text-transform: capitalize;
+color:#fff;
+margin-top: 12px;
+}
+
+.profile-line{
+    width: 320px;
+    height: 2px;
+    background: #fff;
+    margin-left: 14px;
+    margin-right: 16px;
+    margin-bottom: 20px;
+}

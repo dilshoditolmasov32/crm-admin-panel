@@ -1,0 +1,25 @@
+.list{
+    width: 350px;
+}
+
+.accordion-menu h1{
+font-weight: 600;
+font-size: 22px;
+line-height: 22px;
+letter-spacing: 0%;
+vertical-align: middle;
+color: #10355B;
+margin-bottom: 20px;
+}
+
+.accordion-menu{
+    border: 1px solid #B9B9B9;
+    background: #ECEDEF;
+    border-radius: 10px;
+    padding: 20px;
+    height: 100vh;
+}
+
+.panel1-header{
+    background: red;
+}

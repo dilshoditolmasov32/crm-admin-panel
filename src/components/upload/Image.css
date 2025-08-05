@@ -1,0 +1,86 @@
+    .upload-image {
+    border: 1px solid #b9b9b9;
+    background: #ecedef;
+    border-radius: 10px;
+    padding: 10px;
+    width: 170px;
+    height: 170px;
+    cursor: pointer;
+    transition: 0.5s;
+    }
+
+    .product-image {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 2px dashed #d9d9d9;
+    border-radius: 10px;
+    }
+
+    .product-image span {
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 14px;
+    top: 10px;
+    border-radius: 50%;
+    background: #969b9f;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.05px;
+    letter-spacing: -0.37px;
+    color: #fff;
+    }
+
+    .image-loading div {
+    margin: 0 auto;
+    width: 59px;
+    height: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #002347;
+    border-radius: 20px;
+    }
+
+    .image-hover p {
+    width: 121px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #fff;
+    margin-top: 6px;
+    }
+
+    .image-hover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    text-align: center;
+    width: 170px;
+    height: 170px;
+    border: 1px solid #10355b;
+    background: #4d739b;
+    border-radius: 10px;
+    padding: 24px 32px;
+    opacity: 1;
+    visibility: hidden;
+    transition: opacity 0.8s ease, visibility 0.8s ease;
+    }
+
+    .product-photo {
+    position: relative;
+    }
+
+    .upload-image:hover .image-hover {
+    opacity: 1;
+    visibility: visible;
+    display: block;
+    }

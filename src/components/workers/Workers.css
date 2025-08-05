@@ -1,0 +1,62 @@
+.workers-data {
+  padding: 12px;
+  background: #ecedef;
+  border-radius: 6px;
+  height: 80vh;
+}
+
+.xodimlar-text {
+  width: 120px;
+  font-size: 16px;
+  letter-spacing: 0%;
+  padding: 4px 7px;
+  margin-bottom: 14px;
+  border: 1px solid #000000;
+  border-radius: 6px;
+}
+
+.workers-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.workers-title p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #636363;
+}
+
+.workers-data ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 8px 10px;
+  border: 1px solid #b9b9b9;
+  background: #f3f3f3;
+  font-size: 16px;
+  margin-bottom: 5px;
+  border-radius: 6px;
+}
+
+.worker-fullName {
+  color: #000000;
+  font-size: 16px;
+}
+
+.worker-contract {
+  padding: 6px;
+  background-color: #fff;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.worker-product {
+  padding: 6px 5px;
+  background: #10355b;
+  color: #fff;
+  border-radius: 6px;
+}

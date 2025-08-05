@@ -1,0 +1,7 @@
+.setting-page {
+  border-top: 2px solid #b9b9b9;
+  display: flex;
+  gap: 20px;
+  height: 100vh;
+  padding: 20px;
+}

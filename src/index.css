@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Neometric";
+}
+
+
+@font-face {
+  font-family: "Neometric";
+  src: url("../public/fonts/Neometric-Regular.otf") format("opentype");
+}
+
+a{
+  text-decoration-line: none;
+}

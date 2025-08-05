@@ -1,0 +1,62 @@
+.profil-page {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  padding: 20px;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+
+.profil-img {
+  width: 305px;
+  height: 305px;
+  margin-top: 10px;
+}
+
+.profil-data {
+  flex-grow: 1;
+}
+
+.data-item {
+
+  margin-bottom: 15px;
+}
+
+.data-item label {
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20.05px;
+  letter-spacing: -0.37px;
+  margin-bottom: 5px;
+  color: #10355b;
+  font-size: 16px;
+}
+
+.data-item input {
+  width: 90%;
+  padding: 8px;
+  border-radius: 10px;
+  background: white;
+  font-size: 14px;
+  border: 1px solid #b9b9b9;
+  padding: 16px 20px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20.05px;
+  letter-spacing: -0.37px;
+}
+
+.data-item input[readonly] {
+  background: #fff;
+  cursor: not-allowed;
+}
+
+.edit-btn {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 20.05px;
+  letter-spacing: -0.37px;
+}

@@ -1,0 +1,38 @@
+.input-selector {
+  width: 100%;
+}
+
+.input-selector p {
+  font-size: 18px;
+  color: #000;
+}
+
+.my-input-style {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #b9b9b9;
+  border-radius: 9px;
+  margin: 10px 0;
+  gap: 10px;
+}
+
+.my-input-style input {
+  flex: 1;
+  padding: 16px 20px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  border-radius: 9px;
+  min-width: 0; /* ⚠️ Muhim! Bu input'ni siqilishga tayyor qiladi */
+}
+
+.edit-button {
+  white-space: nowrap;
+  padding: 10px 15px;
+  border: none;
+  background: none;
+  color: #969b9f;
+  font-size: 18px;
+  cursor: pointer;
+}
