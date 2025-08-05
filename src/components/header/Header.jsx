@@ -31,9 +31,8 @@ const Header = () => {
           <span>0 soʻm</span>
         </div>
 
-        <a href={"setting"} className="setting-link">
+        <a href={"setting/profil"} className="setting-link">
           Настроить
-
         </a>
       </div>
     </header>
