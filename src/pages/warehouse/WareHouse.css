@@ -1,4 +1,11 @@
-.warehouse-page{
-    display: flex;
-    
+.warehouse-page {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.warehouse-line {
+  width: 100%;
+  background: #b9b9b9;
+  height: 1px;
 }

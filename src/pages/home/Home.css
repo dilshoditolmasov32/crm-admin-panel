@@ -1,8 +1,12 @@
-
+.home-line{
+  width: 100%;
+  height: 1px;
+  background-color:#B9B9B9;
+}
 
 .lists {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 20px;
-  padding: 20px;
+  padding: 10px 20px;
 }

@@ -1,8 +1,8 @@
-.input-selector {
+.input-component {
   width: 100%;
 }
 
-.input-selector p {
+.input-component p {
   font-size: 18px;
   color: #000;
 }
@@ -24,9 +24,14 @@
   border: none;
   font-size: 20px;
   border-radius: 9px;
-  min-width: 0; /* ⚠️ Muhim! Bu input'ni siqilishga tayyor qiladi */
+  min-width: 0;
 }
 
+
+.my-input-style input::placeholder{
+   color: #000;
+
+}
 .edit-button {
   white-space: nowrap;
   padding: 10px 15px;

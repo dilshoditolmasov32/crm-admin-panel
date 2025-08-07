@@ -84,7 +84,7 @@ const Category = () => {
             <li key={value.id} className="category-list">
               <div className="image-container">{value.image}</div>
               <div className="input-container">
-                {value.component1}
+                {value.component1}  
                 {value.component2}
               </div>
             </li>

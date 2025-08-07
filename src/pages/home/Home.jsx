@@ -6,14 +6,17 @@ import Wrapper from "../../components/cards/Wrapper";
 
 const Home = () => {
   return (
-    <div className="home">
-      <Wrapper/>
-      <div className="lists">
-        <Workers />
-        <Chat />
-        < Message />
+    <>
+      <div className="home-line"></div>
+      <div className="home">
+        <Wrapper />
+        <div className="lists">
+          <Workers />
+          <Chat />
+          <Message />
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

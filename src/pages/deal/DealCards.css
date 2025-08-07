@@ -3,10 +3,9 @@
    display: grid;
   grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
   gap: 10px;
-  padding: 10px;
+  padding: 20px;
   overflow-x: auto;
   border-top: 1px solid #B9B9B9;
-
 }
 
 .deal-column {
@@ -16,11 +15,10 @@
 
 .deal-header {
   background: #ECEDEF;
-  border: 1px solid #ccc;
   padding: 10px;
   border-radius: 6px;
   margin-bottom: 10px;
-  border: 1px solid #10355B
+  border: 1px solid #115b10
 }
 
 .deal-header p {

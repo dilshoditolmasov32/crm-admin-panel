@@ -1,5 +1,6 @@
 import { IoSearch } from "react-icons/io5";
 import "./Header.css";
+import SelectMenu from "../select/SelectMenu";
 
 const Header = () => {
   return (
@@ -12,16 +13,13 @@ const Header = () => {
           </button>
         </div>
 
-        <select id="company" name="company" required>
-          <option value="company"
-          defaultValue={"company name"}
-          disabled selected hidden>
-            Company name
-          </option>
-          <option value="kale">Kale Gallery</option>
-          <option value="jnk">JNK</option>
-          <option value="bella">Bella maison</option>
-        </select>
+        <SelectMenu
+          inputLabel={"Company name"}
+          option1={"Kale Gallery"}
+          option2={"JNK"}
+          option3={"Imaj"}
+          option4={"Bella"}
+        />
 
         <p className="hisobnoma">Создать отчет</p>
       </div>

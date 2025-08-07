@@ -5,7 +5,7 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import "./Accordion.css";
-export default function AccordionExpandDefault() {
+export default function AccordionMenu({ theme }) {
   const accordionList = [
     {
       id: "1",
@@ -38,15 +38,48 @@ export default function AccordionExpandDefault() {
       <h1>Kategoriyalar</h1>
 
       {accordionList?.map((value) => (
-        <Accordion>
+        <Accordion
+          key={value.id}
+          disableGutters
+          square
+          elevation={0}
+          sx={{
+            background: "none",
+            border: "none",
+            boxShadow: "none",
+            width: "400px",
+            "&::before": {
+              display: "none",
+            },
+          }}
+        >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls={`panel${value.id}-content`}
-            // id="panel2-header"
             id={`panel${value.id}-header`}
             key={value.id}
+            sx={{
+              borderColor: "none",
+              boxShadow: "none",
+              borderBottom: "none",
+               transition: "all 0.3s ease",
+
+            }}
           >
-            <Typography component="span">{value.title}</Typography>
+            <Typography
+              component="span"
+              sx={{
+                border: "none",
+                color: "#7D7D7D",
+                fontSize: "22px",
+                ".Mui-expanded &": {
+          color: "#000000", // ochilganda qora rang
+        },
+
+              }}
+            >
+              {value.title}
+            </Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>{value.text}</Typography>

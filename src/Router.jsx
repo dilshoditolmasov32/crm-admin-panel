@@ -34,8 +34,9 @@ function AppRouter() {
 
           <Route path="warehouse" element={<WareHouse />}>
             <Route index element={<Navigate to={"products-list"} replace />} />
-            <Route path="products-list" element={<ProductsList />} />
-            <Route path="edit-product" element={<EditProduct />} />
+            <Route path="products-list" element={<ProductsList />}/>
+              <Route index element={<Navigate to={"edit-product"} replace />} />
+              <Route path="edit-product" element={<EditProduct />} />
           </Route>
 
           <Route path="web" element={<Web />}>

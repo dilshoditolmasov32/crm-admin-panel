@@ -3,7 +3,7 @@ import "./UploadBanner.css"
 const UploadBanner = () => {
   return (
     <>
-      <main className="content">
+      <main className="banner-content">
         <div className="banner-grid">
           <div className="banner-box">
             <span className="number">1</span>

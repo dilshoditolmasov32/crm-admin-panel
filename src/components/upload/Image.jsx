@@ -12,7 +12,6 @@ const Image = () => {
         <div className="image-hover">
           <div className="image-loading">
             <div>
-              {" "}
               <img src={uploadImage} alt="dowlnoad icon" />
             </div>
           </div>

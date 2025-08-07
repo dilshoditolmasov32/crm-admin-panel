@@ -1,0 +1,11 @@
+        .modal-deleteBtn{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background: #10355B;
+    border-radius: 12px;
+    margin: 0 auto;
+    padding: 18px 8px;
+    font-size: 20px;
+    font-weight: 700;
+}

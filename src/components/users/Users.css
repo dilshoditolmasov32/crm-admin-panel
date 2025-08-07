@@ -1,49 +1,31 @@
+.user-profile-page {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  margin-top: 40px;
+}
 
-  .checkbox-wrapper-65 .cbx {
-    position: relative;
-    display: block;
-    float: left;
-   width: 26px;
-   height: 26px;
-    border-radius: 6px;
-    background-color: #D9D9D9;
-    background-image: linear-gradient(#474749, #606062);
-    box-shadow: inset 0 1px 1px rgba(255,255,255,0.15), inset 0 -1px 1px rgba(0,0,0,0.15);
-    transition: all 0.15s ease;
-  }
-  .checkbox-wrapper-65 .cbx svg {
-    position: absolute;
-    top: 6px;
-    left: 6px;
-    fill: none;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke: #fff;
-    stroke-width: 2;
-    stroke-dasharray: 20;
-    stroke-dashoffset: 20;
-    transform: translate3d(0, 0, 0);
-  }
-  .checkbox-wrapper-65 .cbx + span {
-    float: left;
-    margin-left: 6px;
-  }
-  .checkbox-wrapper-65 {
-    user-select: none;
-  }
-  .checkbox-wrapper-65 label {
-    display: inline-block;
-    cursor: pointer;
-  }
-  .checkbox-wrapper-65 input[type="checkbox"] {
-    display: none;
-    visibility: hidden;
-  }
-  .checkbox-wrapper-65 input[type="checkbox"]:checked + .cbx {
-    background-color: #606062;
-    background-image: linear-gradient(#255cd2, #1d52c1);
-  }
-  .checkbox-wrapper-65 input[type="checkbox"]:checked + .cbx svg {
-    stroke-dashoffset: 0;
-    transition: all 0.15s ease;
-  }
+.user-profile-page h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 20.05px;
+  letter-spacing: -0.37px;
+}
+
+.user-profile-data {
+  width: 100%;
+}
+
+.user-activity {
+  display: flex;
+  gap: 10px;
+}
+
+.user-profile-data h5 {
+  color: #000;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20.05px;
+  letter-spacing: -0.37px;
+  margin: 5px 0;
+}

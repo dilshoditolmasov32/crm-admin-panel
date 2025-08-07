@@ -1,37 +1,27 @@
 import UploadBanner from "../banner/UploadBanner";
+import Input from "../input/Input";
 import "./CardBanner.css";
-
 
 const UploadCard = () => {
   return (
-    <div >
-  
-    <div className="cardBanner-page">
-      <div className="project-selector">
-        <div>
-          <p>Главный текст</p>
-          <div className="banner-text">
-            <input
-              type="text"
-              placeholder="Loyihangizni biz bilan birga yarating"
-            />
-            <button className="submit-btn">Изменить</button>
-          </div>
+    <>
+      <div className="upload-card-component">
+        <div className="cardBanner-page-data">
+          <Input
+            title={"Главный текст"}
+            text={"Loyihangizni biz bilan birga yarating"}
+            editData={"Изменить"}
+          />
+          <Input
+            title={"Подтекст"}
+            text={"Loyihangizni biz bilan birga yarating"}
+            editData={" Готово"}
+          />
         </div>
-        <div>
-          <p>Подтекст</p>
-          <div className="banner-text">
-            <input
-              type="text"
-              placeholder="Loyihangizni biz bilan birga yarating"
-            />
-            <button className="submit-btn">Готово</button>
-          </div>
-        </div>
+
+        <UploadBanner />
       </div>
-    </div>
-      <UploadBanner/>
-      </div>
+    </>
   );
 };
 

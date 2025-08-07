@@ -5,22 +5,21 @@
   height: 80vh;
   padding: 20px;
   margin-top: 10px;
-
-}
-
-
-.content {
-  flex: 1;
-  width: 100%;
 }
 
 .banner-grid {
-    display: flex;
-    border: 1px solid #b9b9b9;
-    background-color: #ecedef;
-    gap: 20px;
-    margin-bottom: 20px;
-  padding: 10px;
+  display: flex;
+  border: 1px solid #b9b9b9;
+  background-color: #ECEDEF;
+  gap: 20px;
+  margin-bottom: 20px;
+ padding: 10px 20px;
+ border-radius: 10px;
+ width: 100%;
+}
+
+.banner-content{
+  width: 100%;
 }
 
 .banner-box {
@@ -92,43 +91,41 @@ button {
   cursor: pointer;
 }
 
-.project-selector{
-    display: flex;
-    gap: 10px;
+.project-selector {
+  display: flex;
+  gap: 10px;
 }
 
-
-.project-selector p{
-    width: 100%;
-font-weight: 400;
-font-size: 14px;
-line-height: 20.05px;
-letter-spacing: -0.37px;
-color: #000;
+.project-selector p {
+  width: 100%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20.05px;
+  letter-spacing: -0.37px;
+  color: #000;
 }
 
-.banner-text{
-     min-width: 560px;
-    width: 100%;
-    border: 1px solid #B9B9B9;
-    border-radius: 9px;
-    margin-top: 10px;
+.banner-text {
+  min-width: 560px;
+  width: 100%;
+  border: 1px solid #b9b9b9;
+  border-radius: 9px;
+  margin-top: 10px;
 }
 
-.banner-text input{
-    min-width: 560px;
-    padding: 16px 20px;
-    outline: none;
-    border: none;
-    color: #000;
-font-weight: 400;
-font-size: 20px;
-line-height: 20.05px;
-letter-spacing: -0.37px;
-border-radius: 9px;
-
+.banner-text input {
+  min-width: 560px;
+  padding: 16px 20px;
+  outline: none;
+  border: none;
+  color: #000;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20.05px;
+  letter-spacing: -0.37px;
+  border-radius: 9px;
 }
 
-.banner-text input::placeholder{
-  color: #000;  
+.banner-text input::placeholder {
+  color: #000;
 }

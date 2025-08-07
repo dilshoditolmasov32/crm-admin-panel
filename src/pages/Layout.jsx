@@ -7,6 +7,7 @@ const Layout = () => {
   return (
     <>
       <main className="main-page">
+    
         <SidebarData />
         <Header />
         <Outlet />
